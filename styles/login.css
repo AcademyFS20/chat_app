@@ -1,0 +1,137 @@
+body{
+    background-color: #20A6F9;
+}
+.form{
+    background-color: white;
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-shadow: 13px 5px 13px 2px rgb(40, 40, 40);
+    border-radius: 1.5rem;
+    margin-top: 10rem;
+    justify-content: space-around;
+   
+}
+.avatar{
+    width: 50%;
+}
+.checkbox2{
+    display: none;
+}
+.avatar img{
+    width: 90%;
+}
+.split-form{
+    width: 40%;
+}
+.split-form h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    
+    color: #20a6f9;
+}
+.split-form input[type="submit"]{
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #20a6f9;
+    color: white;
+    border-radius: 5px;
+    display: block;
+
+    margin-top: 3rem;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    background-color: #20a6f9;
+    margin-top: 20px;
+}
+.checkbox label{
+    font-size: 1.6rem;  
+    color: #20a6f9;
+}
+label a{
+    color: #20a6f9;
+    font-style: italic;
+}
+.inputs{
+    display: block;
+    width: 30rem;
+    height: 4rem;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1.5px solid #20a6f9;
+    padding-left: 2rem;
+    margin: 20px 0;
+    font-size: 1.7rem;
+    opacity: 0.7;
+}
+::placeholder{
+    font-size: 1.7rem;
+    padding-left: 1.5rem;
+    opacity: 0.7;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .form {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+    .split-form form{
+        display: block;
+        
+       }
+       .split-form h2{
+           text-align: center;
+       }
+    .checkbox{
+        display: none;
+    }
+    .checkbox2{
+        display: block;
+    }
+    .checkbox2 label{
+        font-size: 1.6rem;  
+        color: #20a6f9;
+    }
+    .inputs {
+        width: 100%;
+        margin: 20px auto;
+        padding-left: 0; 
+    }
+    .avatar{
+        width: 100%;
+    }
+    .avatar img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .split-form {
+        width: 100%;
+    }
+    .inputs {
+        width: 80%;
+        
+        padding-left: 0; 
+    }
+    .split-form input[type="submit"] {
+        margin: 0 auto;
+        margin-top: 3rem;
+        
+    }
+}

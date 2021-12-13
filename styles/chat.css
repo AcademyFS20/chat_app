@@ -1,0 +1,196 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    flex-direction: column;
+    
+    left: 0;
+    background-color: #20A6F9;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .sidebar h3 {
+    line-height: 4;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    opacity: 0.5;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .sidebar p{
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+  }
+  .avatar{
+      width: 100%;
+      height: 30%;
+      background-image: url('../assets/back2.jpg');
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .avatar img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+  }
+.logout{
+    width: 100%;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: center;
+}
+
+.logout a{
+    color: white;
+    display: block;
+    font-size: 2rem;
+    
+    margin: 0 auto;
+    
+}
+
+.settings{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.settings button{
+
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border: 0.1rem solid white;
+    width: 80%;
+    color: white;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    height: 5rem;
+}
+.settings button:hover{
+    background-color: white;
+    color: #20A6F9;
+    transition: all .2s ease-in-out;
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    transition: 0.5s;
+    position: fixed;
+  }
+  .closebtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    display: none;
+    position: fixed;
+  }
+
+main{
+  height: 100vh;
+}
+.bar{
+  background-color: #20A6F9;
+  width: 100%;
+  height: 4.3em;
+  
+}
+.chating{
+  
+
+  height: auto;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+.recive{
+  width: 50%;
+}
+.recive img{
+  width: 8%;
+}
+.send{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.info-message{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.info-message img {
+  background-color: rgb(138, 138, 138);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.info-message p{
+  color: gray;
+}
+.recived-message p{
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 3rem 0;
+  background-color: #20A6F9;
+  color: white;
+  width: auto;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+}
+.info-message p{
+  color: gray;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+.send-message{
+  display: flex;
+  flex-direction: column;
+  
+}
+.send-message p{
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 3rem 0;
+  background-color: rgb(191, 186, 186);
+  color: white;
+  width: auto;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+}
+.info-send p{
+  color: gray;
+  background: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin-right: 1rem;
+}
+.div{
+  display: flex;
+  height: 100vh;
+}
